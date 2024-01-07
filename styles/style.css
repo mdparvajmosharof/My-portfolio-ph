@@ -1,12 +1,9 @@
 *{
   font-family: 'Source Code Pro', monospace;
   
-  line-height: 1.7;
+  
 }
-p{
-  font-weight: 600;
-  font-size: 18px;
-}
+
 nav{
   
   margin: 0 100px;
@@ -50,10 +47,26 @@ header{
   background-color: #E8F5E9;
 }
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 30px 100px;
   display: flex;
 }
-
+.hi-ban{
+  font-size:28px;
+  margin-bottom: o;
+}
+.ban-title{
+  margin-top: 2px;
+  font-size: 35px;
+}
+.ban-dis{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+.btn-down{
+  margin-right: 30px;
+}
 .profile{
   position: absolute;
   width: 250px;
@@ -79,4 +92,24 @@ header{
   height: 280px;
   border: 0;
   border-radius: 38% 62% 63% 37% / 72% 55% 45% 28%;
+}
+.about{
+  margin: 100px;
+  padding: 100px;
+  background-color: #E8F5E9;
+  text-align: center;
+}
+.about > h2{
+  color: darkslategrey;
+}
+.about-inf-cnt{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.inf-des{
+  font-weight: bold;
+}
+.inf-title{
+  color: #4C4D59;
 }
